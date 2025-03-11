@@ -1,0 +1,218 @@
+/* .dashboard-container {
+  padding: 20px;
+  background-color: #f9fafc;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #4CAF50;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.task-card p {
+  color: #555;
+  font-size: 18px;
+  margin: 0;
+}
+
+.add-task-section {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: calc(100% - 130px);
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+} */
+
+/* Faculty dashboard container */
+.dashboard-container {
+  padding: 20px;
+  background-color: #f7faff;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Header styles */
+.header {
+  flex: 0.5; /* Adjusted to occupy less height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  padding-bottom: 20px; /* Added padding for spacing */
+}
+
+/* Heading styles */
+h2, h3 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px; /* Reduced margin for better spacing */
+}
+
+/* Task heading specific styles */
+.task-heading {
+  margin-bottom: 10px; /* Reduced margin for better spacing */
+  color: #555;
+}
+
+/* Task list */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensure 3 tasks per row */
+  gap: 20px;
+  flex: 2; /* Occupy the remaining height */
+  overflow-y: auto; /* Scrollable if tasks exceed height */
+}
+
+/* Task card container */
+.task-card {
+  background-color: #ffffff;
+  padding: 15px; /* Padding for the card */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Status buttons */
+.status-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-buttons label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Button styles for status */
+.status-btn {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.status-btn.pending {
+  background-color: #dc3545; /* Red for pending */
+}
+
+.status-btn.ongoing {
+  background-color: #ffc107; /* Yellow for ongoing */
+}
+
+.status-btn.completed {
+  background-color: #28a745; /* Green for completed */
+}
+
+.status-btn.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Submit button */
+.submit-btn {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* Status message */
+.status-message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Hover effect on task cards */
+.task-card:hover {
+  background-color: #f0f8ff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}

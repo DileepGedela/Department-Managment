@@ -1,0 +1,124 @@
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFFAFA;
+}
+
+/* Header Styling */
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #36454F;
+  padding: 20px;
+  color: white;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* Navigation Links Styling */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(41, 80, 221);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page Styling */
+.home-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.department-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.department-section {
+  text-align: left;
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.department-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Faculty Page Styling */
+.faculty-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.faculty-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.faculty-member {
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography Styling */
+h1, h3 {
+  color: #2c3e50;
+}
+
+p {
+  color: #555;
+}
+
+/* Additional Utility Styles */
+.App {
+  text-align: center;
+}
+
+.brand {
+  flex-grow: 1;
+}
+
+.nav-links {
+  flex-grow: 2;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+}
