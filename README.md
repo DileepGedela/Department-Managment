@@ -5,9 +5,9 @@
 ![Image Alt Text](src/assets/Loginbox.png)
 
 ![Image Alt Text](src/assets/UserLogin.png)
-![Image Alt Text](src/assets/Add Task.png)
+![Image Alt Text](src/assets/AddTask.png)
 ![Image Alt Text](src/assets/FacultyTask.png)
 
-![Image Alt Text](src/assets/Faculty Task Status.png)
-![Image Alt Text](src/assets/User Stuatus Check.png)
-![Image Alt Text](src/assets/Faculty status Update.png)
+![Image Alt Text](src/assets/FacultyTaskStatus.png)
+![Image Alt Text](src/assets/UserStuatusCheck.png)
+![Image Alt Text](src/assets/FacultystatusUpdate.png)
